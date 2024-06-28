@@ -96,13 +96,15 @@ app.use("/apidocs", swaggerUIExpress.serve, swaggerUIExpress.setup(swaggerConfig
 
 // Inicialización del servidor HTTP
 const PORT = config.port;
-let server;
 
-if (!server) {
-  server = http.createServer(app);
+// Variable global para asegurar que el servidor solo se inicie una vez
+global.server = global.server || null;
+
+if (!global.server) {
+  global.server = http.createServer(app);
 
   // Configuración de Socket.io
-  const io = new Server(server);
+  const io = new Server(global.server);
   io.on('connection', (socket) => {
     const logger = loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL);
     logger.info(`Nuevo cliente conectado ${socket.id}`);
@@ -121,9 +123,9 @@ if (!server) {
   });
 
   // Iniciar el servidor
-  server.listen(PORT, () => {
+  global.server.listen(PORT, () => {
     loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`);
   });
 }
 
-module.exports = server;
+module.exports = global.server;
