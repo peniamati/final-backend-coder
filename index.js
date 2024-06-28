@@ -27,6 +27,7 @@ require('dotenv').config();
 // Middleware para el análisis del cuerpo de la solicitud JSON y URL codificado
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
 // Configuración de la base de datos
 Database.connect()
   .then(() => {
@@ -95,33 +96,33 @@ app.use("/chat", chatRoutes);
 app.use("/apidocs", swaggerUIExpress.serve, swaggerUIExpress.setup(swaggerConfig));
 
 // Inicialización del servidor HTTP
-if (!module.parent) { // Añadido para prevenir múltiples inicializaciones
-  const PORT = config.port;
-  const server = http.createServer(app);
+const PORT = config.port;
+const server = http.createServer(app);
 
-  // Configuración de Socket.io
-  const io = new Server(server);
-  io.on('connection', (socket) => {
-    const logger = loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL);
-    logger.info(`Nuevo cliente conectado ${socket.id}`);
+// Configuración de Socket.io
+const io = new Server(server);
+io.on('connection', (socket) => {
+  const logger = loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL);
+  logger.info(`Nuevo cliente conectado ${socket.id}`);
 
-    socket.on("all-messages", async () => {
-      const messages = await Chat.find();
-      socket.emit("message-all", messages);
-    });
-
-    socket.on("new-message", async (data) => {
-      const newMessage = new Chat(data);
-      await newMessage.save();
-      const messages = await Chat.find();
-      socket.emit("message-all", messages);
-    });
+  socket.on("all-messages", async () => {
+    const messages = await Chat.find();
+    socket.emit("message-all", messages);
   });
 
-  // Iniciar el servidor
+  socket.on("new-message", async (data) => {
+    const newMessage = new Chat(data);
+    await newMessage.save();
+    const messages = await Chat.find();
+    socket.emit("message-all", messages);
+  });
+});
+
+// Iniciar el servidor
+if (!module.parent) {
   server.listen(PORT, () => {
     loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
   });
-
-  module.exports = server;
 }
+
+module.exports = app;
