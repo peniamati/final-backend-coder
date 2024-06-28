@@ -95,31 +95,33 @@ app.use("/chat", chatRoutes);
 app.use("/apidocs", swaggerUIExpress.serve, swaggerUIExpress.setup(swaggerConfig));
 
 // Inicialización del servidor HTTP
-const PORT = config.port;
-const server = http.createServer(app);
+if (!module.parent) { // Añadido para prevenir múltiples inicializaciones
+  const PORT = config.port;
+  const server = http.createServer(app);
 
-// Configuración de Socket.io
-const io = new Server(server);
-io.on('connection', (socket) => {
-  const logger = loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL);
-  logger.info(`Nuevo cliente conectado ${socket.id}`);
+  // Configuración de Socket.io
+  const io = new Server(server);
+  io.on('connection', (socket) => {
+    const logger = loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL);
+    logger.info(`Nuevo cliente conectado ${socket.id}`);
 
-  socket.on("all-messages", async () => {
-    const messages = await Chat.find();
-    socket.emit("message-all", messages);
+    socket.on("all-messages", async () => {
+      const messages = await Chat.find();
+      socket.emit("message-all", messages);
+    });
+
+    socket.on("new-message", async (data) => {
+      const newMessage = new Chat(data);
+      await newMessage.save();
+      const messages = await Chat.find();
+      socket.emit("message-all", messages);
+    });
   });
 
-  socket.on("new-message", async (data) => {
-    const newMessage = new Chat(data);
-    await newMessage.save();
-    const messages = await Chat.find();
-    socket.emit("message-all", messages);
+  // Iniciar el servidor
+  server.listen(PORT, () => {
+    loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
   });
-});
 
-// Iniciar el servidor
-server.listen(PORT, () => {
-  loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
-});
-
-module.exports = server;
+  module.exports = server;
+}
