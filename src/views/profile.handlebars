@@ -175,7 +175,7 @@
             document.getElementById('toggle-role-btn').addEventListener('click', async function () {
                 const role = document.getElementById('role').value;
                 const userId = userData._id;
-                const documents = userData.documents.map(doc => doc.name);
+                const documents = userData.documents.map(doc => doc.name.split('.')[0]);
 
                 const hasIdentification = documents.includes('identificacion');
                 const hasStatement = documents.includes('comprobante_de_estado_de_cuenta');
