@@ -73,9 +73,6 @@ async function updateProductQuantity(req, res) {
           logger.error('No tiene permisos para agregar este producto');
           return res.status(403).send({ msg: 'No puedes agregar un producto que te pertenece' });
         }
-      } else{
-        logger.error('No tiene permisos para agregar este producto');
-        return res.status(403).send({ msg: 'No puedes agregar un producto que te pertenece' });
       }
     }
 
