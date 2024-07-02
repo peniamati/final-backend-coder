@@ -119,8 +119,10 @@ io.on('connection', (socket) => {
 });
 
 // Iniciar el servidor
-server.listen(PORT, () => {
-  loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
-});
+if (!module.parent) {
+  server.listen(PORT, () => {
+    loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
+  });
+}
 
-module.exports = server;
+module.exports = app;
