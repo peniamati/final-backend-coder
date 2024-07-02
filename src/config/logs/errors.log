@@ -203,3 +203,7 @@
 {"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T01:38:20.748Z"}
 {"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-02T01:45:53.003Z"}
 {"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-02T01:48:17.310Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:00:09.431Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:01:11.630Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:01:41.910Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: TypeError: Assignment to constant variable.","timestamp":"2024-07-02T02:08:55.576Z"}

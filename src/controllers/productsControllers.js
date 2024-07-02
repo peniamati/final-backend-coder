@@ -140,8 +140,9 @@ async function getProductById(req, res) {
 }
 
 async function createProduct(req, res, isTest = false) {
+
   try {
-    const {
+    let {
       title,
       description,
       price,

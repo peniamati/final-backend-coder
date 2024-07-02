@@ -65,6 +65,7 @@ async function updateProductQuantity(req, res) {
     const userId = req.user._id;
 
     const product = await Product.findById(pid);
+
     
     if (userRole === 'premium'){
 

@@ -3188,3 +3188,19 @@
 {"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-02T01:48:17.310Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:49:16.796Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:49:19.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:59:51.869Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:59:53.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-02T02:00:05.964Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:00:09.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T02:01:08.550Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T02:01:10.615Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:01:11.630Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T02:01:36.523Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T02:01:38.264Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T02:01:41.910Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T02:01:55.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T02:01:57.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T02:08:23.147Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T02:08:25.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-07-02T02:08:42.713Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: TypeError: Assignment to constant variable.","timestamp":"2024-07-02T02:08:55.576Z"}
