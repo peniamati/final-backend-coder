@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,17 +14,22 @@
             margin: 0 auto;
             padding: 20px;
         }
+
         h1 {
             text-align: center;
         }
+
         form {
             margin-top: 20px;
         }
+
         label {
             display: block;
             margin-bottom: 5px;
         }
-        input[type="text"], select {
+
+        input[type="text"],
+        select {
             width: 100%;
             padding: 8px;
             margin-bottom: 10px;
@@ -31,10 +37,13 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
+
         input[type="file"] {
             margin-bottom: 10px;
         }
-        input[type="submit"], button {
+
+        input[type="submit"],
+        button {
             background-color: blue;
             color: white;
             padding: 10px 20px;
@@ -43,9 +52,12 @@
             cursor: pointer;
             margin-top: 10px;
         }
-        input[type="submit"]:hover, button:hover {
+
+        input[type="submit"]:hover,
+        button:hover {
             background-color: #45a049;
         }
+
         .modal {
             display: none;
             position: fixed;
@@ -55,8 +67,9 @@
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgba(0,0,0,0.4);
+            background-color: rgba(0, 0, 0, 0.4);
         }
+
         .modal-content {
             background-color: #fefefe;
             margin: 15% auto;
@@ -64,29 +77,34 @@
             border: 1px solid #888;
             width: 80%;
         }
+
         .close {
             color: #aaa;
             float: right;
             font-size: 28px;
             font-weight: bold;
         }
+
         .close:hover,
         .close:focus {
             color: black;
             text-decoration: none;
             cursor: pointer;
         }
-        .modal-footer{
+
+        .modal-footer {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         .readonly-field {
             background-color: #f0f0f0;
             pointer-events: none;
         }
     </style>
 </head>
+
 <body>
     <a href="/api/products" class="btn btn-primary mb-3">Ir a Productos</a>
     <h1>Perfil</h1>
@@ -113,20 +131,21 @@
 
         <label for="role">Rol:</label>
         <input type="text" name="role" id="role" value="{{ data.role }}" readonly class="readonly-field">
-        
+
         <label for="currentDocuments">Documentos:</label>
         <ul id="current-documents">
             {{#if data.documents.length}}
             {{#each data.documents}}
-                <li>{{ this.name }}</li>
+            <li>{{ this.name }}</li>
             {{/each}}
             {{else}}
             <li>No hay documentos cargados</li>
             {{/if}}
         </ul>
 
+        {{#unless isAdmin}}
         <button type="button" id="toggle-role-btn">Cambiar a Rol {{toggleRoleText data.role}}</button>
-
+        {{/unless}}
 
         <div class="modal-footer mt-5">
             <button type="button" id="updateUserBtn">Actualizar usuario</button>
@@ -134,7 +153,8 @@
     </div>
 
     <div id="documentModal" class="modal">
-        <form method="post" action="/api/users/{{ data._id }}/documents" class="modal-content" id="uploadForm" enctype="multipart/form-data">
+        <form method="post" action="/api/users/{{ data._id }}/documents" class="modal-content" id="uploadForm"
+            enctype="multipart/form-data">
             <span class="close" id="closeModal">&times;</span>
             <h2>Debe cargar los siguientes documentos:</h2>
             <ul>
@@ -151,58 +171,60 @@
         const userDataScript = document.getElementById('user-data');
         const userData = JSON.parse(userDataScript.textContent);
 
-        document.getElementById('toggle-role-btn').addEventListener('click', async function () {
-            const role = document.getElementById('role').value;
-            const userId = userData._id;
-            const documents = userData.documents.map(doc => doc.name);
+        if (document.getElementById('role').value !== 'admin') {
+            document.getElementById('toggle-role-btn').addEventListener('click', async function () {
+                const role = document.getElementById('role').value;
+                const userId = userData._id;
+                const documents = userData.documents.map(doc => doc.name);
 
-            const hasIdentification = documents.includes('identificacion');
-            const hasStatement = documents.includes('comprobante_de_estado_de_cuenta');
-            const hasProofOfAddress = documents.includes('comprobante_de_domicilio');
+                const hasIdentification = documents.includes('identificacion');
+                const hasStatement = documents.includes('comprobante_de_estado_de_cuenta');
+                const hasProofOfAddress = documents.includes('comprobante_de_domicilio');
 
-            if (!hasIdentification || !hasStatement || !hasProofOfAddress) {
-                document.getElementById('documentModal').style.display = 'block';
-            } else {
-                try {
-                    const response = await fetch(`/api/users/premium/${userId}`, {
-                        method: 'PUT',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ role })
-                    });
-
-                    const result = await response.json();
-
-                    if (response.ok) {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Rol de usuario actualizado correctamente',
-                            showConfirmButton: false,
-                            timer: 2000
+                if (!hasIdentification || !hasStatement || !hasProofOfAddress) {
+                    document.getElementById('documentModal').style.display = 'block';
+                } else {
+                    try {
+                        const response = await fetch(`/api/users/premium/${userId}`, {
+                            method: 'PUT',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ role })
                         });
-                        setTimeout(() => {
-                            document.getElementById('documentModal').style.display = 'none';
-                        }, 2000);
-                        document.getElementById('role').value = result.user.role;
-                        window.location.reload();
-                    } else {
+
+                        const result = await response.json();
+
+                        if (response.ok) {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Rol de usuario actualizado correctamente',
+                                showConfirmButton: false,
+                                timer: 2000
+                            });
+                            setTimeout(() => {
+                                document.getElementById('documentModal').style.display = 'none';
+                            }, 2000);
+                            document.getElementById('role').value = result.user.role;
+                            window.location.reload();
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error al actualizar el rol de usuario',
+                                text: result.error || 'Hubo un problema al procesar la solicitud'
+                            });
+                        }
+                    } catch (error) {
+                        console.error('Error al enviar la solicitud:', error);
                         Swal.fire({
                             icon: 'error',
-                            title: 'Error al actualizar el rol de usuario',
-                            text: result.error || 'Hubo un problema al procesar la solicitud'
+                            title: 'Error al enviar la solicitud',
+                            text: 'Hubo un problema al intentar actualizar el rol de usuario'
                         });
                     }
-                } catch (error) {
-                    console.error('Error al enviar la solicitud:', error);
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error al enviar la solicitud',
-                        text: 'Hubo un problema al intentar actualizar el rol de usuario'
-                    });
                 }
-            }
-        });
+            });
+        }
 
         document.getElementById('closeModal').addEventListener('click', function () {
             document.getElementById('documentModal').style.display = 'none';
@@ -300,4 +322,5 @@
         });
     </script>
 </body>
+
 </html>

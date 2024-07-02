@@ -27,7 +27,6 @@ require('dotenv').config();
 // Middleware para el análisis del cuerpo de la solicitud JSON y URL codificado
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
 // Configuración de la base de datos
 Database.connect()
   .then(() => {
@@ -44,7 +43,8 @@ app.use(session({
     mongoUrl: process.env.MONGO_URI,
   }),
   resave: false,
-  saveUninitialized: false
+  saveUninitialized: false,
+  cookie: { maxAge: 15 * 60 * 1000 } // 15 minutos en milisegundos
 }));
 
 // Inicializar Passport
@@ -89,7 +89,7 @@ app.use('/api/sessions', authRoutes);
 app.use("/msg", messagesRoute);
 app.use('/', viewsRoutes);
 app.use('/api/users', userRoutes);
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/src/public"));
 app.use("/chat", chatRoutes);
 
 // Configuración de Swagger
@@ -119,10 +119,8 @@ io.on('connection', (socket) => {
 });
 
 // Iniciar el servidor
-if (!module.parent) {
-  server.listen(PORT, () => {
-    loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
-  });
-}
+server.listen(PORT, () => {
+  loggerConfig.getLogger(process.env.NODE_ENV, process.env.LOG_LEVEL).info(`${errorDictionary.LISTENING_PORT} ${PORT}`); 
+});
 
-module.exports = app;
+module.exports = server;

@@ -16,6 +16,9 @@
   </head>
   <body>
     <div class="container">
+      <form action="/api/sessions/logout" method="post" class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-danger ml-3">Cerrar sesión</button>
+      </form>
       <a href="/api/products" class="btn btn-primary">Ir a Productos</a>
       <h1>Chat</h1>
       <div id="chat-messages">

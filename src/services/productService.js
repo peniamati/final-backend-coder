@@ -50,8 +50,8 @@ class ProductManager {
         nextPage: productos.nextPage,
         hasPrevPage: productos.hasPrevPage,
         hasNextPage: productos.hasNextPage,
-        prevLink: productos.hasPrevPage ? `https://final-backend-coder.vercel.app/api/products?${queryString}&page=${productos.prevPage}` : null,
-        nextLink: productos.hasNextPage ? `https://final-backend-coder.vercel.app/api/products?${queryString}&page=${productos.nextPage}` : null
+        prevLink: productos.hasPrevPage ? `/api/products?${queryString}&page=${productos.prevPage}` : null,
+        nextLink: productos.hasNextPage ? `/api/products?${queryString}&page=${productos.nextPage}` : null
       };
     } catch (error) {
       return { success: false, message: errorDictionary.PRODUCTS_OBTAINED_NOT_FOUND, error: error }

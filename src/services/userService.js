@@ -152,7 +152,14 @@ class UserManager {
   }
   async getInactiveUsers(lastActiveDate) {
     try {
-        return await User.find({ last_connection: { $lt: lastActiveDate } });
+        const users = await User.find({ last_connection: { $lt: lastActiveDate } });
+        let inactiveUsers = [];
+        users.forEach(user => {
+          if (user.role != "admin") {
+            inactiveUsers.push(user);
+          }
+        });
+        return inactiveUsers;
     } catch (error) {
         console.error('Error al obtener usuarios inactivos:', error);
         throw error;

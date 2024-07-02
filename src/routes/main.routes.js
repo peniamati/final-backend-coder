@@ -4,8 +4,6 @@ const route = new Router();
 const {
   renderLoginPage,
   renderRegisterPage,
-  renderProfilePage,
-  auth,
 } = require("../controllers/mainControllers.js");
 const productsRoutes = require("./products.routes.js");
 const cartsRoutes = require("./carts.routes.js");
@@ -27,6 +25,5 @@ route.use("/api/swagger", swaggerRoutes);
 route.get("/", renderLoginPage);
 route.get("/login", renderLoginPage);
 route.get("/register", renderRegisterPage);
-route.get("/profile", auth, renderProfilePage);
 
 module.exports = route;

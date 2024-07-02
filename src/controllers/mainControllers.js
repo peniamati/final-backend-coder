@@ -19,8 +19,9 @@ function auth(req, res, next) {
 }
 
 function renderLoginPage(req, res) {
+  const message = req.query.message || '';
   logger.debug("Renderizando página de inicio de sesión");
-  res.render("login");
+  res.render("login", { message });
 }
 
 function renderRegisterPage(req, res) {
@@ -30,7 +31,9 @@ function renderRegisterPage(req, res) {
 
 function renderProfilePage(req, res) {
   logger.debug("Renderizando página de perfil de usuario");
-  res.render("profile");
+  const isAdmin = req.session.user.role === "admin" ? true : false;
+  console.log(isAdmin);
+  res.render("profile", { isAdmin });
 }
 
 module.exports = {

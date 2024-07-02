@@ -47,7 +47,7 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: 'https://final-backend-coder.vercel.app/api/sessions/login_github/callback',
+      callbackURL: '/api/sessions/login_github/callback',
       scope: ["user:email"],
     },
     async ( accessToken, refreshToken, profile, done) => {

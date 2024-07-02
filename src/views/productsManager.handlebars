@@ -116,7 +116,7 @@
 
         // Enviar la solicitud AJAX para agregar el producto
         $.ajax({
-          url: 'https://final-backend-coder.vercel.app/api/products/createProd',
+          url: '/api/products/createProd',
           type: 'POST',
           contentType: 'application/json',
           data: JSON.stringify(productData),
@@ -160,7 +160,7 @@
         }).then((result) => {
           if (result.isConfirmed) {
             $.ajax({
-                url: `https://final-backend-coder.vercel.app/api/products/deleteProd/${productId}`,
+                url: `/api/products/deleteProd/${productId}`,
                 type: 'DELETE',
               })
               .done(function (response) {
@@ -194,7 +194,7 @@
       // Función para obtener los productos
       function getProducts() {
         $.ajax({
-          url: 'https://final-backend-coder.vercel.app/api/products/allProducts',
+          url: '/api/products/allProducts',
           type: 'GET',
           contentType: 'application/json',
         })
@@ -215,7 +215,7 @@
                   <div class="d-flex">Codigo: <p class="product-info-${product._id} product-code-${product._id}">${product.code}</p></div>
                   <div class="d-flex">Disponible: <p class="product-info-${product._id} product-status-${product._id}">${product.status}</p></div>
                   <div class="d-flex">Imagen: <img class="product-info-${product._id} product-thumbnail-${product._id}" height="50" width="50" src="${product.thumbnail}" readonly></div> 
-                  <div class="d-flex">Link de imagen:<p class="product-info-${product._id} product-thumbnail-${product._id}">${product.thumbnail}</p></div>
+                  <div class="d-flex flex-wrap">Link de imagen:<p class="product-info-${product._id} product-thumbnail-${product._id} overflow-hidden">${product.thumbnail}</p></div>
                   ${isEditable ? `
                     <button class="btn btn-primary btn-sm edit-product" data-id="${product._id}">Editar</button>
                     <button class="btn btn-danger btn-sm delete-product" data-id="${product._id}">Borrar</button>
@@ -252,7 +252,7 @@
         };
 
         $.ajax({
-          url: `https://final-backend-coder.vercel.app/api/products/updateProd/${productId}`,
+          url: `/api/products/updateProd/${productId}`,
           type: 'PUT',
           contentType: 'application/json',
           data: JSON.stringify(productData),

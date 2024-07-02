@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="container mt-5">
-    <a href="/api/products" class="btn btn-primary">Ir a Inicio</a>
+    <a href="/api/products" class="btn btn-primary">Ir a Productos</a>
   </div>
     {{#if isAdmin}}
     <div class="container mt-5">
@@ -36,16 +36,21 @@
                     <td>{{email}}</td>
                     <td>{{name}}</td>
                     <td>
-                        <form class="d-inline" action="/api/users/updateRole/{{_id}}" method="POST">
-                            <select name="role" class="form-select form-select-sm" onchange="this.form.submit()">
-                                <option value="user" {{#if (eq role 'user')}}selected{{/if}}>User</option>
-                                <option value="premium" {{#if (eq role 'premium')}}selected{{/if}}>Premium</option>
-                                <option value="admin" {{#if (eq role 'admin')}}selected{{/if}}>Admin</option>
-                            </select>
-                        </form>
+                        {{#if (eq role 'admin')}}
+                            Admin
+                        {{else}}
+                            <form class="d-inline" action="/api/users/updateRole/{{_id}}" method="POST">
+                                <select name="role" class="form-select form-select-sm" onchange="this.form.submit()">
+                                    <option value="user" {{#if (eq role 'user')}}selected{{/if}}>User</option>
+                                    <option value="premium" {{#if (eq role 'premium')}}selected{{/if}}>Premium</option>
+                                </select>
+                            </form>
+                        {{/if}}
                     </td>
                     <td>
-                        <button class="btn btn-danger btn-sm" onclick="deleteUser('{{_id}}')">Eliminar</button>
+                        {{#unless (eq role 'admin')}}
+                            <button class="btn btn-danger btn-sm" onclick="deleteUser('{{_id}}')">Eliminar</button>
+                        {{/unless}}
                     </td>
                 </tr>
                 {{/each}}
@@ -54,7 +59,7 @@
     </div>
 
     <div class="container mt-5">
-      <button type="submit" class="btn btn-primary" onclick="deleteInactiveUsers()">Eliminar Usuarios Inactivos</button>
+      <button type="submit" class="btn btn-danger" onclick="deleteInactiveUsers()">Eliminar Usuarios Inactivos</button>
     </div>
 
     <!-- Bootstrap JS and dependencies (Popper.js and jQuery) -->

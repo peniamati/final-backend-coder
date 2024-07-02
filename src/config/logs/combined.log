@@ -2851,8 +2851,340 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-26T15:46:10.367Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Mensaje creado correctamente.","timestamp":"2024-06-26T15:46:16.453Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-26T15:46:17.015Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-26T15:55:05.097Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-26T15:55:07.115Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-06-26T15:55:18.006Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6630189271033ddbeac14620 en el carrito 662ebd562c8579c69a2e8f42","timestamp":"2024-06-26T15:55:37.989Z"}
-{"level":"\u001b[32minfo\u001b[39m","message":"Compra completada.","timestamp":"2024-06-26T15:55:49.057Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-26T15:49:35.127Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-26T15:49:36.292Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-26T15:53:09.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-26T15:53:10.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T13:47:01.586Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T13:47:02.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:09:18.540Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:09:19.750Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-06-27T14:10:36.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-06-27T14:11:07.669Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:11:12.906Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mensaje creado correctamente.","timestamp":"2024-06-27T14:11:21.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:11:21.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-06-27T14:11:30.552Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:11:32.954Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 66705260b8444badb2b82597","timestamp":"2024-06-27T14:11:53.135Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 666c690cc55258d687be5377","timestamp":"2024-06-27T14:11:56.077Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-06-27T14:12:03.631Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-06-27T14:12:08.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:12:22.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:12:25.250Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión del administrador:admin@coder.com","timestamp":"2024-06-27T14:12:46.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:17:42.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-06-27T14:17:51.641Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:17:55.155Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:18:40.245Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:18:52.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-06-27T14:19:09.285Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión del administrador:admin@coder.com","timestamp":"2024-06-27T14:20:51.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:24:56.997Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:24:58.152Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:31:11.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:31:13.142Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:32:13.119Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:32:14.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:33:49.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:33:51.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:35:48.522Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:35:50.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:36:29.140Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:36:30.461Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:36:56.202Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:36:57.582Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:38:43.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:38:46.730Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:39:20.203Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:39:24.253Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:39:49.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:39:57.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:40:47.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:40:53.420Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-27T14:41:55.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-27T14:41:59.129Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-29T09:47:37.885Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-29T09:48:08.067Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-06-29T09:49:25.242Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-06-29T09:49:26.359Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-06-29T09:49:32.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T11:28:30.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T11:28:31.704Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T11:28:38.395Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-07-01T11:28:50.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T11:37:07.315Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T11:37:23.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T11:43:34.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T11:43:35.904Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al cerrar sesión: TypeError: Cannot read properties of undefined (reading '_id')","timestamp":"2024-07-01T11:47:15.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T11:49:12.218Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al cerrar sesión: TypeError: Cannot read properties of undefined (reading '_id')","timestamp":"2024-07-01T11:58:15.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T11:58:42.123Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T11:59:53.086Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:08:17.786Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al cerrar sesión: TypeError: Cannot read properties of undefined (reading '_id')","timestamp":"2024-07-01T12:08:18.576Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:08:19.097Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:08:33.308Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:15:10.820Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:26:04.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:28:01.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:29:25.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:30:49.968Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:31:58.076Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:33:12.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:35:29.012Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:36:47.833Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:37:07.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:38:48.693Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:40:24.136Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:41:59.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:43:02.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:43:03.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:43:05.660Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:43:29.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:44:54.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:45:26.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:45:28.393Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:45:31.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:52:15.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:52:17.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:53:11.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:53:12.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:53:24.032Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:53:25.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:53:36.421Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:53:56.074Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-07-01T12:54:33.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:54:50.933Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:55:00.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T12:56:22.552Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T12:56:40.553Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T12:56:41.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T12:56:49.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T12:56:59.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T12:57:05.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T12:59:17.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T12:59:20.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T13:00:23.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:00:24.722Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:00:27.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:00:32.656Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:00:34.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:00:38.367Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Compra completada.","timestamp":"2024-07-01T13:00:50.570Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:02:00.305Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:03:34.661Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:05:34.000Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:05:46.951Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:05:51.410Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:05:51.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:05:56.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:05:57.451Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:06:01.985Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:06:06.721Z"}
+{"0":"pena_matias@hotmail.com","level":"\u001b[32minfo\u001b[39m","message":"Correo enviado:","timestamp":"2024-07-01T13:08:26.031Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:11:27.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:11:28.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:12:29.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:12:30.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:13:26.964Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:13:28.053Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:13:42.341Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:14:59.036Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:15:01.042Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T13:15:12.447Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:15:15.396Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:15:41.456Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T13:15:45.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:16:13.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:16:14.661Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:16:23.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:17:29.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:17:31.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:17:36.084Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:17:40.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:17:48.254Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:20:17.077Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:20:18.495Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:21:08.900Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:21:20.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:21:27.857Z"}
+{"0":"macchiasebastian@gmail.com","level":"\u001b[32minfo\u001b[39m","message":"Correo enviado:","timestamp":"2024-07-01T13:21:50.179Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:07.030Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:22:11.005Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d96da81ad4c179821df21 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:22.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9a1f114c3002d0ef9156 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:26.363Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9bda0e66fe9318b3f05b en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:28.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9cb3413f66737fb41f93 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:30.914Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9d6a6943b0015a46510b en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:34.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9dcbf644aa450e5013c3 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:36.698Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:22:40.072Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:22:47.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665dad60aab457d5d73e3fb9 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:22:50.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:23:03.675Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:23:51.506Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:23:59.085Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al actualizar cantidad del producto en el carrito: product.owner.equals is not a function","stack":"TypeError: product.owner.equals is not a function\n    at updateProductQuantity (C:\\Users\\macch\\OneDrive\\Documentos\\CoderHouse\\final-backend\\entrega-final\\src\\controllers\\cartsControllers.js:71:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-01T13:24:32.758Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:27:42.487Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:27:43.621Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c7b2f1724c1eeaf999566 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:27:46.545Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665c819b7fc8165b27141977 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:27:56.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 665d9a1f114c3002d0ef9156 en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:28:01.609Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:28:30.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:30:16.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:30:17.491Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:30:35.072Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:30:36.223Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No puedes agregar un producto de tu propiedad","timestamp":"2024-07-01T13:30:44.542Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:31:41.417Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:31:46.038Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: macchiasebastian@gmail.com","timestamp":"2024-07-01T13:32:11.587Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No puedes agregar un producto de tu propiedad","timestamp":"2024-07-01T13:32:19.251Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:36:09.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:36:11.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: pena_matias@hotmail.com","timestamp":"2024-07-01T13:36:22.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:36:32.413Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:36:38.082Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682aef30ad46ade95975a8d en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:36:38.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682abf458772768577fd866 en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:36:51.563Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:36:56.842Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:36:57.940Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:37:11.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682aef30ad46ade95975a8d en el carrito 666c690cc55258d687be5377","timestamp":"2024-07-01T13:37:17.320Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:37:38.798Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:37:40.063Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:37:51.332Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6682aef30ad46ade95975a8d en el carrito 66705260b8444badb2b82597","timestamp":"2024-07-01T13:37:53.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 666c690cc55258d687be5377 eliminados correctamente.","timestamp":"2024-07-01T13:37:55.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 66705260b8444badb2b82597 eliminados correctamente.","timestamp":"2024-07-01T13:38:00.078Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:38:01.660Z"}
+{"0":"pena_matias@hotmail.com","level":"\u001b[32minfo\u001b[39m","message":"Correo enviado:","timestamp":"2024-07-01T13:38:10.112Z"}
+{"0":"macchiasebastian@gmail.com","level":"\u001b[32minfo\u001b[39m","message":"Correo enviado:","timestamp":"2024-07-01T13:38:47.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T13:39:06.578Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T13:39:07.751Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:40:18.873Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:40:53.361Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:42:54.806Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:43:17.722Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:43:28.788Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:44:02.668Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T13:45:09.504Z"}
+{"0":"macchiasebastian@gmail.com","level":"\u001b[32minfo\u001b[39m","message":"Correo enviado:","timestamp":"2024-07-01T13:45:23.485Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:14:04.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:14:06.209Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:14:23.232Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:14:25.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-07-01T20:14:41.046Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T20:14:51.650Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 66451a0a1f5faf0f5423fbe3 en el carrito 662ebd562c8579c69a2e8f42","timestamp":"2024-07-01T20:15:06.970Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T20:15:16.312Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:17:01.625Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:17:03.848Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-01T20:17:06.644Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:17:42.664Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:17:44.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 6630189271033ddbeac14620 en el carrito 662ebd562c8579c69a2e8f42","timestamp":"2024-07-01T20:17:52.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Compra completada.","timestamp":"2024-07-01T20:18:02.671Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-01T20:20:25.717Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: product.owner.equals is not a function","timestamp":"2024-07-01T20:20:32.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:21:40.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:21:42.168Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: product.owner.equals is not a function","timestamp":"2024-07-01T20:21:47.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:22:17.599Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:22:19.391Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: product.owner.equals is not a function","timestamp":"2024-07-01T20:22:27.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:23:12.962Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:23:15.056Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:23:20.289Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:23:22.128Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T20:23:27.862Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T20:29:02.622Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:30:40.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-01T20:32:32.905Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:32:49.645Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:33:15.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:33:17.978Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:33:19.978Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:33:34.612Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:33:52.907Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:33:54.733Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:37:49.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:37:51.199Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:38:03.323Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:38:05.115Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-01T20:55:36.973Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:57:25.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:58:22.549Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:58:24.504Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:58:31.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:59:15.079Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:59:16.954Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-01T20:59:24.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T20:59:39.967Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T20:59:41.767Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T21:00:55.974Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T21:00:58.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:25:02.112Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:25:04.105Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:25:19.438Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:25:21.248Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:25:27.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:25:29.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:26:04.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:26:06.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-01T22:26:24.596Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T22:26:39.510Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:27:14.212Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:27:16.447Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al eliminar el producto: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T22:27:59.941Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:28:19.788Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:28:21.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:35:30.708Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:35:32.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:39:19.430Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:39:21.586Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error deleting product: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T22:39:36.025Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:39:55.736Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:39:57.525Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error deleting product: TypeError: Cannot read properties of null (reading 'role')","timestamp":"2024-07-01T22:40:07.635Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-01T22:42:35.159Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-01T22:42:37.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-01T22:42:50.973Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:02:12.099Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:02:14.158Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-02T01:02:27.316Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-07-02T01:08:38.537Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-07-02T01:08:41.255Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mensaje creado correctamente.","timestamp":"2024-07-02T01:08:45.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Página de chat renderizada correctamente.","timestamp":"2024-07-02T01:08:46.174Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T01:11:17.178Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-02T01:11:27.989Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:36:51.318Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:36:53.336Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-07-02T01:36:59.321Z"}
+{"level":"\u001b[33mwarning\u001b[39m","message":"No se encontró el carrito solicitado.","timestamp":"2024-07-02T01:37:15.633Z"}
+{"level":"\u001b[33mwarning\u001b[39m","message":"No se encontró el carrito solicitado.","timestamp":"2024-07-02T01:38:11.973Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"No tiene permisos para agregar este producto","timestamp":"2024-07-02T01:38:20.748Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 66451a0a1f5faf0f5423fbe3 en el carrito 662ebd562c8579c69a2e8f42","timestamp":"2024-07-02T01:38:24.940Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 662ebd562c8579c69a2e8f42 eliminados correctamente.","timestamp":"2024-07-02T01:38:35.498Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Se actualizó la cantidad del producto 66451a0a1f5faf0f5423fbe3 en el carrito 662ebd562c8579c69a2e8f42","timestamp":"2024-07-02T01:38:40.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todos los productos del carrito 662ebd562c8579c69a2e8f42 eliminados correctamente.","timestamp":"2024-07-02T01:38:45.705Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: juan@mail.com","timestamp":"2024-07-02T01:39:00.667Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:42:39.761Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:42:41.627Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:43:23.403Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:43:25.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:44:40.434Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:44:42.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:45:08.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:45:10.205Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Inicio de sesión exitoso: adminCoder@coder.com","timestamp":"2024-07-02T01:45:36.211Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-02T01:45:53.003Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:47:00.407Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:47:02.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:47:42.047Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:47:43.873Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error al crear un producto: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer","timestamp":"2024-07-02T01:48:17.310Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Servidor escuchando en el puerto 8080","timestamp":"2024-07-02T01:49:16.796Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Conexión a la base de datos exitosa","timestamp":"2024-07-02T01:49:19.127Z"}
