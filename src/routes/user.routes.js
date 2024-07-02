@@ -17,10 +17,10 @@ route.delete('/deleteUser/:id', authenticateToken, isAdmin, userControllers.dele
 route.delete('/', authenticateToken, isAdmin, userControllers.deleteInactiveUsers);
 
 // Ruta para renderizar la vista de restablecer la contraseña
-route.get('/reset-password', authenticateToken, userControllers.renderResetPassword);
-route.post('/reset-password-email', authenticateToken, userControllers.sendResetPasswordEmail);
-route.get('/reset-password/:token', authenticateToken, userControllers.renderNewPasswordForm);
-route.post('/reset-password/:token', authenticateToken, userControllers.resetPassword);
+route.get('/reset-password', userControllers.renderResetPassword);
+route.post('/reset-password-email', userControllers.sendResetPasswordEmail);
+route.get('/reset-password/:token', userControllers.renderNewPasswordForm);
+route.post('/reset-password/:token', userControllers.resetPassword);
 route.put('/premium/:uid', authenticateToken, userControllers.toggleUserRole);
 route.put('/:uid/update', authenticateToken, userControllers.updateUser);
 
